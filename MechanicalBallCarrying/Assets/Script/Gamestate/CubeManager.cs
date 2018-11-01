@@ -1,5 +1,6 @@
 /*今回の根幹をなすプログラム
  * 全てのキューブの管理から様々なことを司る*/
+//だれも俺に気がつくことはない
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
