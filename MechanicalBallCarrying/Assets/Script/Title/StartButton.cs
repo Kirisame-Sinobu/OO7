@@ -16,6 +16,7 @@ public class StartButton : MonoBehaviour {
 	void Start () {
         Starttext = this.transform.Find("Starttext").gameObject.GetComponent<Text>();
         startBGM = GetComponent<AudioSource>();
+        // Numata-Foo
 	}
 	
 	// Update is called once per frame
