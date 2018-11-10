@@ -10,10 +10,11 @@ public class ButtonGrid : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        for (int y = 0; y > 9;y++){
-            for (int x = 0; x > 9;x++){
-                GameObject temp = Instantiate(Button,new Vector3(x,y,0), Quaternion.identity);
+        for (int y = 0; y < 9;y++){
+            for (int x = 0; x < 9;x++){
+                GameObject temp = Instantiate(Button,new Vector3(x-4,y-4,0), Quaternion.identity);
                 grit[x, y] = temp;
+                //Instantiate(Button, new Vector3(x, y, 0), Quaternion.identity);
             }
         }
 	}
