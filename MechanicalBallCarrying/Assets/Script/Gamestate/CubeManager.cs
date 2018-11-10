@@ -5,6 +5,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//おれだおれだおれだおれだ
+
 public class CubeManager : MonoBehaviour {
 
     public static int Cubehight = 10;
