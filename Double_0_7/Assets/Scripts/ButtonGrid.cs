@@ -5,7 +5,6 @@ using UnityEngine;
 public class ButtonGrid : MonoBehaviour {
 
     public GameObject Button;
-
     public GameObject[,] grit = new GameObject[9, 9];
 
 	// Use this for initialization
