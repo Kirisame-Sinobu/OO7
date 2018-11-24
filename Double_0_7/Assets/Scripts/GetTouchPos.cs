@@ -9,15 +9,19 @@ public class GetTouchPos : MonoBehaviour {
 	bool t=true;
 	private Vector2 touchpos;
 
+
 	void Start () {
 		
 	}
 	
-	// Update is called once per frame
+
 	void Update () {
 		touch ();
 	}
 
+    /// <summary>
+    /// タッチ！！！！！
+    /// </summary>
 	void touch(){
 		if (Input.touchCount <= 0) {
 			return;
