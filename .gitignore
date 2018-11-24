@@ -5,6 +5,14 @@
 /[Bb]uilds/
 /Assets/AssetStoreTools*
 
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Obj/
+UnityGenerated/
+Library/
+
 # Visual Studio 2017 cache directory
 .vs/
 
