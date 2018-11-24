@@ -22,6 +22,7 @@ public class GetTouchPos : MonoBehaviour {
     /// <summary>
     /// タッチ！！！！！
     /// </summary>
+    //なんだお前
 	void touch(){
 		if (Input.touchCount <= 0) {
 			return;
