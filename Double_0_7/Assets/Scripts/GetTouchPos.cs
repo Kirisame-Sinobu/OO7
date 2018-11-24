@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class GetTouchPos : MonoBehaviour {
 
-	bool t=true;
+	//bool t=true;
 	private Vector2 touchpos;
 
 
