@@ -6,7 +6,7 @@ public class PatternGrid : MonoBehaviour {
 
 
     private const int x_max = 9;
-    private const int y_max = 1;
+    private const int y_max = 9;
 
     #region なんか上のやつをシリアライズしたかったかもしれない
     //[Tooltip("パターンを横方向にいくつ並べるか")]
@@ -20,13 +20,16 @@ public class PatternGrid : MonoBehaviour {
     #endregion
 
 
+    
+    
     [Tooltip("パターンの上方向の大きさ")]
     [SerializeField]
-    private int pattern_size_x;
+    private float pattern_size_x;
 
     [Tooltip("パターンの横方向の大きさ")]
     [SerializeField]
-    private int pattern_size_y;
+    private float pattern_size_y;
+
 
     #region
     //private const int rightUpCornerPattern = 1;
@@ -176,7 +179,7 @@ public class PatternGrid : MonoBehaviour {
 
         #endregion
 
-        grid[x, y] = Instantiate(image_button[Random.Range(0, image_button_pattern)], new Vector3(x * pattern_size_x, y * pattern_size_y, 0.0f), Quaternion.identity);
+        grid[x, y] = Instantiate(image_button[Random.Range(0, image_button_pattern)], new Vector3(x * pattern_size_x - 4, y * pattern_size_y - 4, 0.0f), Quaternion.identity);
     }
 
 }
